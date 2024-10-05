@@ -1,7 +1,6 @@
-numpy
+numpy==1.21.6
 pandas
 matplotlib
 seaborn
-os
 ipython
 streamlit
