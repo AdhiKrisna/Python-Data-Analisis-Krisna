@@ -6,7 +6,7 @@ import seaborn as sns
 
 # Load dataset
 def load_data():
-    return pd.read_csv('./dashboard/main_data.csv')
+    return pd.read_csv('dashboard/main_data.csv')
 
 # Helper function to filter data by date range
 def filter_data_by_date(df, start_date, end_date):
